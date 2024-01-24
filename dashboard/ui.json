@@ -1,0 +1,274 @@
+{
+    "metadata": {
+        "streamsync_version": "0.2.8"
+    },
+    "components": {
+        "root": {
+            "id": "root",
+            "type": "root",
+            "content": {
+                "appName": "My App"
+            },
+            "parentId": null,
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "c0f99a9e-5004-4e75-a6c6-36f17490b134": {
+            "id": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "type": "page",
+            "content": {
+                "pageMode": "compact",
+                "emptinessColor": "#e9eef1",
+                "accentColor": "#04ae65"
+            },
+            "parentId": "root",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "bebc5fe9-63a7-46a7-b0fa-62303555cfaf": {
+            "id": "bebc5fe9-63a7-46a7-b0fa-62303555cfaf",
+            "type": "header",
+            "content": {
+                "text": "Overview"
+            },
+            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "dsvxx8j7a8i1lh4z": {
+            "id": "dsvxx8j7a8i1lh4z",
+            "type": "heading",
+            "content": {
+                "text": "Cura Dasboard",
+                "headingType": "h1"
+            },
+            "parentId": "bebc5fe9-63a7-46a7-b0fa-62303555cfaf",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "hjpg6cfuyir0b9jl": {
+            "id": "hjpg6cfuyir0b9jl",
+            "type": "sidebar",
+            "content": {
+                "startCollapsed": "yes"
+            },
+            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "position": -2,
+            "handlers": {},
+            "visible": true
+        },
+        "9ageoi3qwmgonmdw": {
+            "id": "9ageoi3qwmgonmdw",
+            "type": "page",
+            "content": {},
+            "parentId": "root",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "ozq28cwg3sjq85kc": {
+            "id": "ozq28cwg3sjq85kc",
+            "type": "button",
+            "content": {
+                "text": "Button Text"
+            },
+            "parentId": "hjpg6cfuyir0b9jl",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "vrwmsnscx31fz5at": {
+            "id": "vrwmsnscx31fz5at",
+            "type": "button",
+            "content": {
+                "text": "Button Text"
+            },
+            "parentId": "hjpg6cfuyir0b9jl",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "jkm865ubgdayiiub": {
+            "id": "jkm865ubgdayiiub",
+            "type": "dataframe",
+            "content": {
+                "dataframe": "@{df}",
+                "enableSearch": "yes",
+                "showIndex": "no",
+                "fontStyle": "normal",
+                "displayRowCount": "",
+                "enableDownload": "yes",
+                "wrapText": "yes"
+            },
+            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "position": 1,
+            "handlers": {
+                "focus": "get_pandas"
+            },
+            "visible": true
+        },
+        "iwox765lt2p82cv5": {
+            "id": "iwox765lt2p82cv5",
+            "type": "tabs",
+            "content": {},
+            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "position": 3,
+            "handlers": {},
+            "visible": "visible"
+        },
+        "2fc853x95eagtt9b": {
+            "id": "2fc853x95eagtt9b",
+            "type": "tab",
+            "content": {
+                "name": "Chat Summary"
+            },
+            "parentId": "iwox765lt2p82cv5",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "e6svdfomjzjhqoh0": {
+            "id": "e6svdfomjzjhqoh0",
+            "type": "tab",
+            "content": {
+                "name": "Chat Transcript"
+            },
+            "parentId": "iwox765lt2p82cv5",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "valyyg61zkc1b37t": {
+            "id": "valyyg61zkc1b37t",
+            "type": "text",
+            "content": {
+                "text": "@{Summary}"
+            },
+            "parentId": "2fc853x95eagtt9b",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "jjsx1bwr58ozq8tj": {
+            "id": "jjsx1bwr58ozq8tj",
+            "type": "text",
+            "content": {
+                "text": "@{Transcript}"
+            },
+            "parentId": "e6svdfomjzjhqoh0",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "8dzrdi9hadvb3zsc": {
+            "id": "8dzrdi9hadvb3zsc",
+            "type": "tab",
+            "content": {
+                "name": "Action Taken"
+            },
+            "parentId": "iwox765lt2p82cv5",
+            "position": 3,
+            "handlers": {},
+            "visible": true
+        },
+        "3wdrcrl62vgl3axi": {
+            "id": "3wdrcrl62vgl3axi",
+            "type": "textareainput",
+            "content": {
+                "label": "Input Label",
+                "rows": "5"
+            },
+            "parentId": "8dzrdi9hadvb3zsc",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "iwxaenxk4mw4gt16": {
+            "id": "iwxaenxk4mw4gt16",
+            "type": "tab",
+            "content": {
+                "name": "Edit"
+            },
+            "parentId": "iwox765lt2p82cv5",
+            "position": 2,
+            "handlers": {},
+            "visible": true
+        },
+        "3ag42ot1ka8e6k65": {
+            "id": "3ag42ot1ka8e6k65",
+            "type": "dropdowninput",
+            "content": {
+                "label": "Choose Session ID",
+                "options": "@{dict}"
+            },
+            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "position": 2,
+            "handlers": {
+                "ss-option-change": "get_session_id"
+            },
+            "visible": true
+        },
+        "j723qj1x1e4dqilt": {
+            "id": "j723qj1x1e4dqilt",
+            "type": "radioinput",
+            "content": {
+                "label": "Urgency",
+                "options": "{\n  \"High\": \"High\",\n  \"Medium\": \"Medium\",\n  \"Low\": \"Low\"\n}",
+                "orientation": "horizontal"
+            },
+            "parentId": "iwxaenxk4mw4gt16",
+            "position": 0,
+            "handlers": {},
+            "binding": {
+                "eventType": "ss-option-change",
+                "stateRef": "urgency"
+            },
+            "visible": true
+        },
+        "cjbli490jgylgl6g": {
+            "id": "cjbli490jgylgl6g",
+            "type": "radioinput",
+            "content": {
+                "label": "Team",
+                "options": "{\n  \"EIP\": \"EIP\",\n  \"Social Care\": \"Social Care\",\n  \"General Queries\": \"General Queries\",\n  \"None\": \"None\"\n}",
+                "orientation": "horizontal"
+            },
+            "parentId": "iwxaenxk4mw4gt16",
+            "position": 1,
+            "handlers": {},
+            "binding": {
+                "eventType": "ss-option-change",
+                "stateRef": "team"
+            },
+            "visible": true
+        },
+        "1pospvac4tsb02qh": {
+            "id": "1pospvac4tsb02qh",
+            "type": "button",
+            "content": {
+                "text": "Confirm"
+            },
+            "parentId": "iwxaenxk4mw4gt16",
+            "position": 2,
+            "handlers": {
+                "ss-click": "update"
+            },
+            "visible": true
+        },
+        "07u0osu31vkakehj": {
+            "id": "07u0osu31vkakehj",
+            "type": "button",
+            "content": {
+                "text": "Mark as complete"
+            },
+            "parentId": "8dzrdi9hadvb3zsc",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        }
+    }
+}
