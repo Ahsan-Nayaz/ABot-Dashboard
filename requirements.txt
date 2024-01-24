@@ -1,6 +1,5 @@
 psycopg2
 psycopg2-binary
-streamsync
+streamsync[ds]
 pandas
 python-dotenv
-pyarrow
